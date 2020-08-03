@@ -1,0 +1,21 @@
+{
+  "name": "requery-error",
+  "version": "0.1.0",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^7.3.2"
+  },
+  "dependencies": {
+    "@adnelson/requery": "^0.39.1",
+    "@glennsl/bs-json": "^5.0.2"
+  }
+}
